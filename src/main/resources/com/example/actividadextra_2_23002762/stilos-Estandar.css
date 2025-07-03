@@ -1,0 +1,73 @@
+/* Estilos generales */
+.root {
+    -fx-background-color: #94e7ff; /* Color de fondo para toda la aplicación */
+}
+
+/* Estilos para contenedores */
+.container {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+/* Estilos para contenedores */
+.container-imagen {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-background-image: url('/images/background.png'); /* Ruta de la imagen */
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+}
+
+/* Estilos para botones */
+.button {
+    -fx-background-color:#038554; /* Color de fondo del botón */
+    -fx-text-fill: #ffffff; /* Color del texto del botón */
+    -fx-font-size: 14px; /* Tamaño de fuente del texto del botón */
+    -fx-pref-width: 120px; /* Ancho preferido del botón */
+}
+
+.button:hover {
+    -fx-background-color: #003817; /* Color de fondo cuando el ratón está sobre el botón */
+}
+
+/* Estilos para etiquetas */
+.label {
+    -fx-font-size: 16px; /* Tamaño de fuente para etiquetas */
+    -fx-text-fill: #333333; /* Color del texto de las etiquetas */
+}
+
+/* Estilos para TextField y PasswordField */
+.text-field {
+    -fx-pref-width: 200px; /* Ancho preferido */
+}
+
+/* Estilos para ComboBox */
+.combo-box {
+    -fx-pref-width: 200px; /* Ancho preferido */
+}
+
+/* Estilos para CheckBox */
+.check-box {
+    -fx-text-fill: #333333; /* Color del texto de CheckBox */
+}
+
+/* Estilos para RadioButton */
+.radio-button {
+    -fx-text-fill: #333333; /* Color del texto de RadioButton */
+}
+
+/* Estilos para TabPane */
+.tab-pane {
+    -fx-tab-min-width: 120px; /* Ancho mínimo de pestañas en el TabPane */
+    -fx-tab-max-width: 120px; /* Ancho máximo de pestañas en el TabPane */
+}
+.button-with-image {
+    -fx-background-color: transparent; /* Fondo transparente */
+    -fx-background-image: url('/images/button_image.png'); /* Ruta de la imagen */
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain; /* Ajustar la imagen dentro del botón */
+    -fx-padding: 10;
+}
+
+.button-with-image:hover {
+    -fx-background-color: transparent; /* Cambia el fondo a transparente cuando el ratón está sobre el botón */
+}

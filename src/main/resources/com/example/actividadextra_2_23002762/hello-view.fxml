@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0" prefWidth="650.0" styleClass="container" stylesheets="@stilos-Estandar.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.actividadextra_2_23002762.EdadController">
+
+      <DatePicker fx:id="datePicker" layoutX="225.0" layoutY="81.0" onAction="#dateUsuario" promptText="11/11/1111" styleClass="text-field" stylesheets="@stilos-Estandar.css" />
+      <Label layoutX="259.0" text="Calcular Edad" textAlignment="CENTER">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+      <Label layoutX="211.0" layoutY="25.0" text="Ingrese Su Fecha De Nacimiento" />
+      <Button fx:id="buttonEdadAños" layoutX="18.0" layoutY="169.0" mnemonicParsing="false" onAction="#clickEdadAños" stylesheets="@stilos-Estandar.css" text="“Calcular Edad”" />
+      <Button fx:id="buttonDias" layoutX="21.0" layoutY="248.0" mnemonicParsing="false" onAction="#clickDias" text="“Calcular días”" />
+      <Label fx:id="lablEdad" layoutX="151.0" layoutY="173.0" text="Su Edad es;" />
+      <Label fx:id="labelDias" layoutX="146.0" layoutY="251.0" text="Su Edad En dias es;" />
+      <Label layoutX="42.0" layoutY="140.0" text="Click Años" />
+      <Label layoutX="45.0" layoutY="223.0" text="Click Dias" />
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" layoutX="416.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@img/javafx.jpg" />
+      </image></ImageView>
+      <Label layoutX="213.0" layoutY="50.0" text="Formato de Fecha; dia/mes/año" />
+
+</AnchorPane>
