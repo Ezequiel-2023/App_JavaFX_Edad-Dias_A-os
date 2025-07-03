@@ -1,1 +1,1 @@
-app interfas JavaFX  al inglesar la fecha de nacimiento calcula la edad y los dias actuales
+app interfas JavaFX  al ingresar la fecha de nacimiento calcula la edad y los dias actuales
